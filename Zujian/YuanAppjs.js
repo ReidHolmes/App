@@ -1,5 +1,5 @@
 /**
- * Sample React Native AppRukou_ViewZujian
+ * Sample React Native ViewZujian
  * https://github.com/facebook/react-native
  *
  * @format
