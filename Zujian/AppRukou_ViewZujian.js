@@ -24,20 +24,28 @@ export default class AppRukou_ViewZujian extends Component {
 
 
         <View style={styles.item}>
-
-
-
-
-
-
-
+            <View style={styles.view2}>
+                <Text>海外酒店</Text>
+            </View>
+            <View style={styles.view2}>
+                <Text>特惠酒店</Text>
+            </View>
 
         </View>
 
 
 
 
-        <View style={styles.item}></View>
+        <View style={styles.item}>
+
+            <View style={styles.view2}>
+                <Text>团购</Text>
+            </View>
+            <View style={styles.view2}>
+                <Text>客栈，公寓</Text>
+            </View>
+
+        </View>
 
 
 
@@ -63,7 +71,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  center: {
+  view2: {
+      flex:1,
+      justifyContent: 'center',
+      alignItems: 'center',
 
   },
 });
