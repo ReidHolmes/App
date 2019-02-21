@@ -14,10 +14,10 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 export default class AppRukou_ViewZujian extends Component {
   render() {
     return (
+    <View style={styles.flex}>
       <View style={styles.container}>
-
         <View style={styles.item}>
-        <Text>酒店</Text>
+        <Text style={styles.font}>酒店</Text>
         </View>
 
 
@@ -25,10 +25,10 @@ export default class AppRukou_ViewZujian extends Component {
 
         <View style={styles.item}>
             <View style={styles.view2}>
-                <Text>海外酒店</Text>
+                <Text style={styles.font}>海外酒店</Text>
             </View>
             <View style={styles.view2}>
-                <Text>特惠酒店</Text>
+                <Text style={styles.font}>特惠酒店</Text>
             </View>
 
         </View>
@@ -39,10 +39,10 @@ export default class AppRukou_ViewZujian extends Component {
         <View style={styles.item}>
 
             <View style={styles.view2}>
-                <Text>团购</Text>
+                <Text style={styles.font}>团购</Text>
             </View>
             <View style={styles.view2}>
-                <Text>客栈，公寓</Text>
+                <Text style={styles.font}>客栈，公寓</Text>
             </View>
 
         </View>
@@ -52,22 +52,27 @@ export default class AppRukou_ViewZujian extends Component {
 
 
       </View>
+    </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    borderWidth:1,
-    borderColor:'red',
     flexDirection:'row',
+    backgroundColor:'#ff0067',
+    padding:2,
+    marginTop:200,
+    marginLeft:5,
+    marginRight:5,
+    height:84,
+    borderRadius:5,
   },
   item: {
     height: 80,
     flex:1,
     borderWidth: 1,
-    borderColor: 'blue',
+    borderColor: '#fff',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -77,4 +82,15 @@ const styles = StyleSheet.create({
       alignItems: 'center',
 
   },
+    font: {
+        color:'#fff',
+        fontSize:16,
+        fontWeight: 'bold',
+
+    },
+    flex:{
+        flex: 1,
+
+
+    },
 });
