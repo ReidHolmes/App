@@ -1,5 +1,5 @@
 /**
- * Sample React Native ViewZujian
+ * Sample React Native AppRukou_ViewZujian
  * https://github.com/facebook/react-native
  *
  * @format
@@ -11,7 +11,7 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
 
-export default class ViewZujian extends Component {
+export default class AppRukou_ViewZujian extends Component {
   render() {
     return (
       <View style={styles.container}>

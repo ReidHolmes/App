@@ -4,7 +4,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import ViewZujian from './ViewZujian';
+import AppRukou_ViewZujian from './AppRukou_ViewZujian';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => ViewZujian);
+AppRegistry.registerComponent(appName, () => AppRukou_ViewZujian);
