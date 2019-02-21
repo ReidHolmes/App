@@ -17,11 +17,32 @@ export default class AppRukou_ViewZujian extends Component {
       <View style={styles.container}>
 
         <View style={styles.item}>
-        <Text style={styles.center}>酒店</Text>
-        <Text style={styles.center}>To get started, edit App.js</Text>
+        <Text>酒店</Text>
         </View>
+
+
+
+
+        <View style={styles.item}>
+
+
+
+
+
+
+
+
+        </View>
+
+
+
+
         <View style={styles.item}></View>
-        <View style={styles.item}></View>
+
+
+
+
+
       </View>
     );
   }
@@ -35,13 +56,14 @@ const styles = StyleSheet.create({
     flexDirection:'row',
   },
   item: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+    height: 80,
+    flex:1,
+    borderWidth: 1,
+    borderColor: 'blue',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   center: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+
   },
 });
