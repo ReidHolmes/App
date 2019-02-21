@@ -9,16 +9,12 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-
-
-export default class App extends Component {
+const Header=require('./header');
+export default class TextZu extends Component {
     render() {
         return (
             <View style={styles.container}>
-
-
-                <Text style={styles.welcome}>Welcome to React Native!</Text>
-                <Text style={styles.instructions}>To get started, edit App.js</Text>
+                <Header></Header>
             </View>
         );
     }
