@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     },
     font_2: {
         color: '#FFF',
+        backgroundColor:'#CD1D1C',
     },
 });
 
