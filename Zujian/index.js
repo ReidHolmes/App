@@ -4,7 +4,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import TextInputZu from './TextInputZu';
+import TouchableZu from './TouchableZu';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => TextInputZu);
+AppRegistry.registerComponent(appName, () => TouchableZu);
